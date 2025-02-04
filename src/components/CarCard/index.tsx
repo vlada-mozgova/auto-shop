@@ -14,7 +14,11 @@ const CarCard = ({
 }: Car) => {
   return (
     <Card className={styles.card}>
-      <img src={pictureUrl} alt={modelName} className={styles.image} />
+      {pictureUrl ? (
+        <img src={pictureUrl} alt={modelName} className={styles.image} />
+      ) : (
+        <div className={styles.imagePlaceholder} />
+      )}
       <CardContent className={styles.cardContent}>
         <Typography variant="h6">
           {manufacturerName} {modelName}

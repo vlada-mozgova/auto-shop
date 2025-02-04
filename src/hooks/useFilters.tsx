@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Manufacturer } from "../pages/Homepage/types.ts";
-import { getCars } from "../utils/api/get-cars.ts";
 import { getColors } from "../utils/api/get-colors.ts";
 import { getManufacturers } from "../utils/api/get-manufacturers.ts";
 

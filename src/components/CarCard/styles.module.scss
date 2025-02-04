@@ -12,6 +12,12 @@
     height: 6rem;
   }
 
+  .imagePlaceholder {
+    width: 8.125rem;
+    height: 6rem;
+    background-color: $gray;
+  }
+
   .cardContent {
     display: flex;
     flex-direction: column;

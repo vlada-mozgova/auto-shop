@@ -1,14 +1,15 @@
 @use "../../index.scss" as *;
 
 .homepage {
-  max-width: 90rem;
-  margin: 0 auto;
-
   .homepageWrapper {
     padding: 1.5rem;
     display: grid;
     grid-template-columns: minmax(0, 25rem) minmax(0, 1fr);
     gap: 1.5rem;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: minmax(0, 1fr);
+    }
 
     .carsList {
       display: flex;
