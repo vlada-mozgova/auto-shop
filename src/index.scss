@@ -1,0 +1,33 @@
+$primary-color: #ea7f28;
+$dark-primary-color: #d37324;
+$gray: #ededed;
+$dark-gray: #4a4a4a;
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+  color: $dark-gray;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.button {
+  width: 8rem;
+  height: 2rem;
+  background-color: $primary-color !important;
+  border-radius: 0.125rem !important;
+  text-transform: initial !important;
+  color: #fff;
+  font-weight: 400 !important;
+  margin-top: 0.75rem !important;
+  align-self: flex-end;
+
+  &:hover {
+    background-color: $dark-primary-color !important;
+  }
+}

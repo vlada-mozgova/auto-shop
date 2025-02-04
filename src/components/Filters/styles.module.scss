@@ -1,0 +1,29 @@
+@use "../../index.scss" as *;
+
+.filters {
+  height: fit-content;
+  border: 1px solid $gray;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .label {
+      font-size: 0.75rem;
+      color: $dark-gray;
+    }
+    .select {
+      width: 100%;
+      border-radius: 0;
+
+      [role="combobox"] {
+        padding: 0.5rem 0.75rem;
+      }
+    }
+  }
+}

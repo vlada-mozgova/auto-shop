@@ -1,0 +1,31 @@
+@use "../../index.scss" as *;
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  button {
+    color: $primary-color;
+    padding: 0 !important;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.875rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

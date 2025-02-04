@@ -1,0 +1,14 @@
+@use "../../index.scss" as *;
+
+.footer {
+  max-width: 90rem;
+  margin: 0 auto;
+  border: 1px solid $gray;
+
+  .footerContent {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

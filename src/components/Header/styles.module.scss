@@ -1,0 +1,30 @@
+@use "../../index.scss" as *;
+
+.header {
+  max-width: 90rem;
+  margin: 0 auto;
+  border: 1px solid $gray;
+
+  .headerContent {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+
+    .nav {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.875rem;
+
+      a {
+        text-decoration: none;
+        color: $dark-gray;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
