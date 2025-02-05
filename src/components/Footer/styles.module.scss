@@ -4,9 +4,11 @@
   max-width: 90rem;
   margin: 0 auto;
   border: 1px solid $gray;
+  height: 5rem;
+  display: flex;
+  align-items: center;
 
   .footerContent {
-    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;

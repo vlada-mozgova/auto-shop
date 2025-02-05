@@ -27,7 +27,7 @@ const CarCard = ({
           Stock # {stockNumber} - {mileage.number} {mileage.unit} - {fuelType} -{" "}
           {color}
         </Typography>
-        <a href={`/${stockNumber}`}>View details</a>
+        <a href={`/car/${stockNumber}`}>View details</a>
       </CardContent>
     </Card>
   );

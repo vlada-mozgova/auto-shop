@@ -1,0 +1,26 @@
+@use "../../index.scss" as *;
+
+.errorPage {
+  height: calc(100vh - 10rem);
+  display: flex;
+  align-items: center;
+
+  .errorPageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

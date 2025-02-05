@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import logo from "../../assets/logo.svg";
 import classNames from "classnames";
+import Logo from "../Logo/index.tsx";
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={classNames("container", styles.headerContent)}>
-        <a href="/" className={styles.logo}>
-          <img src={logo} alt="Logo" />
-        </a>
+        <Logo />
         <div className={styles.nav}>
           <a href="/">Purchase</a>
           <a href="/">My Orders</a>

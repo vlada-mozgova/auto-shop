@@ -4,7 +4,7 @@ import { Car } from "../components/CarCard/types";
 import { getCar } from "../utils/api/get-car.ts";
 
 const useCar = () => {
-  const { stockNumber } = useParams<{ stockNumber: string }>();
+  const { stockNumber } = useParams();
   const [car, setCar] = useState<Car | null>(null);
 
   useEffect(() => {

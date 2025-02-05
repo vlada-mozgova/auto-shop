@@ -14,6 +14,7 @@ body {
 .container {
   max-width: 90rem;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .button {
@@ -29,5 +30,14 @@ body {
 
   &:hover {
     background-color: $dark-primary-color !important;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: underline;
   }
 }
